@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nandana personal portfolio website">
+<title>Sign Up | Nandana</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar">
+<a class="logo" href="index.html">NA<span>Portfolio</span></a>
+<ul class="nav-links">
+<li><a class="" href="index.html">Home</a></li><li><a class="" href="about.html">About Me</a></li><li><a class="" href="gallery.html">My Gallery</a></li><li><a class="" href="contact.html">Contact Me</a></li><li><a class="active" href="signup.html">Sign Up</a></li>
+</ul></nav>
+
+<section class="page-header"><h1>Create Your Account</h1><p>Registration form with 20 different fields</p></section>
+<section class="container">
+<div class="form-box">
+<form>
+<div class="form-grid">
+<div class="field"><label>First Name</label><input type="text" name="firstName"></div>
+<div class="field"><label>Last Name</label><input type="text" name="lastName"></div>
+<div class="field"><label>Username</label><input type="text" name="username"></div>
+<div class="field"><label>Email</label><input type="email" name="email"></div>
+<div class="field"><label>Password</label><input type="password" name="password"></div>
+<div class="field"><label>Confirm Password</label><input type="password" name="confirmPassword"></div>
+<div class="field"><label>Date of Birth</label><input type="date" name="dob"></div>
+<div class="field"><label>Phone Number</label><input type="tel" name="phone"></div>
+<div class="field"><label>Gender</label><div class="radio-group"><label><input type="radio" name="gender" value="Male"> Male</label><label><input type="radio" name="gender" value="Female"> Female</label><label><input type="radio" name="gender" value="Other"> Other</label></div></div>
+<div class="field"><label>Country</label><select name="country"><option>India</option><option>USA</option><option>UK</option><option>Australia</option><option>Other</option></select></div>
+<div class="field"><label>State</label><input type="text" name="state"></div>
+<div class="field"><label>City</label><input type="text" name="city"></div>
+<div class="field"><label>Pincode</label><input type="text" name="pincode"></div>
+<div class="field"><label>Qualification</label><select name="qualification"><option>B.Tech</option><option>BCA</option><option>B.Sc</option><option>MCA</option><option>M.Tech</option><option>Other</option></select></div>
+<div class="field"><label>Occupation</label><input type="text" name="occupation"></div>
+<div class="field"><label>Website URL</label><input type="url" name="website" placeholder="https://example.com"></div>
+<div class="field"><label>Profile Photo</label><input type="file" name="photo" accept="image/*"></div>
+<div class="field"><label>Favourite Color</label><input type="color" name="color" value="#2563eb"></div>
+<div class="field"><label>Preferred Contact</label><select name="contact"><option>Email</option><option>Phone</option><option>WhatsApp</option></select></div>
+<div class="field full"><label>Address</label><textarea name="address" placeholder="Enter your full address"></textarea></div>
+<div class="field full"><label>Skills</label><input type="text" name="skills" placeholder="HTML, CSS, Java, Python..."></div>
+<div class="field full"><label>Hobbies</label><input type="text" name="hobbies" placeholder="Music, sports, reading..."></div>
+<div class="field full"><label>About Yourself</label><textarea name="about" placeholder="Tell us something about yourself"></textarea></div>
+<div class="field full"><label><input type="checkbox" name="terms"> I agree to the Terms and Conditions</label></div>
+</div>
+<br><button class="btn" type="submit">Create Account</button><button class="btn secondary" type="reset">Reset</button>
+<div class="notice"></div>
+</form>
+</div>
+</section>
+
+<footer>© <span class="year"></span> Nandana | B.Tech Computer Science & Engineering</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
